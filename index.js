@@ -4,19 +4,8 @@ function contact_us() {
     var comment = document.getElementById("comment").value;
 
     if (name && email && comment != "") {
-        Email.send({
-            Host: "smtp.gmail.com",
-            Username: "sender@email_address.com",
-            Password: "Enter your password",
-            To: 'rotichenoch27@gmail.com',
-            From: "sender@email_address.com",
-            Subject: "Sending Email using javascript",
-            Body: "Well that was easy!!",
-        })
-            .then(function (message) {
-                alert("Feedback received!")
-            });
-    } else {
-        alert("Kindly provide all the details");
+        alert("Thank you for your feedback "+name)
+    }else{
+        alert("Kindly provide all the details")
     }
 }

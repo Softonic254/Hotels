@@ -241,12 +241,14 @@ h4 {
 .details {
     color: white;
     font-size: 25PX;
+    border-right: 1px solid lightgray;
+    padding-right: 40px;
 }
 
 .images>a>img {
     height: 50px;
     width: 50px;
-    padding: 20px;
+    padding-left: 40px;
 }
 
 .images>a>img:hover{
@@ -257,6 +259,7 @@ h4 {
 #cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    
 }
