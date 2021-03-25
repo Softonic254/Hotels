@@ -202,6 +202,8 @@ h4 {
     text-align: center;
     font-size: 30px;
     padding: 4%;
+    font-family: initial;
+    font-style: italic;
 }
 
 h3 {
